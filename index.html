@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="sv" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Love Efraimsson Portfolio</title>
+  <meta name="description" content="This is Love Efraimssons portfolio. I'm studying to be a web developer.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--------- HEADER AND NAVIGATION --------->
+  <header>
+    <figure>
+      <img class="header_img_phone" src="img/header_phone.jpg" alt="Header-image with page discripsion" />
+      <img class="header_img_larger" src="img/header.jpg" alt="Header-image with page discripsion" />
+    </figure>
+
+    <nav>    
+      <label for="menu_toggle" tabindex="0">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </label>
+      <input type="checkbox" id="menu_toggle" class="menu_toggle" />
+      <ul class="menu">
+        <li><a href="#profile_section">Vem är jag?</a></li>
+        <li><a href="#work_samples">Portfolio</a></li>
+        <li><a href="#experience">Mer om mig</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-------- SECTION, PROFILE --------->
+    <section id="profile_section" class="profile_section">
+      <article>
+        <h1>Vem är jag?</h1>
+        <p>
+          Jag heter Love och är 29 år. Mitt intresse för programmering började i gymnasiet men det var först när jag började arbetsträna på Tetiko som jag fick en chans att utveckla det. Under min tid där lärde jag mig mycket inom HTML och CSS. Jag satte mig även in i grunderna i PHP. Det senaste jag lärde mig är JavaScript.  Nu ska jag gå en tvåårig utbildning inom Front End Developer på Medieinstitutet. 
+        </p>
+        <p>
+          Jag drivs av mitt intresse att alltid utvecklas, alltid lära mig nya saker, och bli bättre på det jag gör. Jag hoppas och tror att utbildningen jag ska gå är min väg till mitt nya yrke!
+        </p>
+      </article>
+      <figure>
+        <img src="img/profile.jpg" alt="A picture of Love Efraimsson" />
+      </figure>
+    </section>
+
+    <!--------- SECTION, WORK SAMPLES ---------->
+    <!-- Work sample 1 -->
+    <section id="work_samples" class="work_samples">    
+      <h1> Portfolio</h1>
+      
+      <section class="movie_festival">
+        <figure>
+          <a href="http://www.filmfestival.loveefraimsson.se/" target="_blank"><img src="img/movie_festival.png" alt="A picture of a work sample of the page 'Filmfestivalen' "></a>
+        </figure>
+        <article>
+          <h2>Filmfestival</h2>
+          <p>
+            Detta är en påhittad sida, alltså inte ett beställningsjobb, som handlar om Göteborgs filmfestival.  Man kan se vad det går för filmer och information om dom. Man kan även se andra aktiviteter som festivalen anordnar samt hur man får kontakt med dom. Sidan är byggd med HTML och CSS.
+          </p>
+          <a href="http://www.filmfestival.loveefraimsson.se/" target="_blank">Klicka här för att komma till Filmfestvalen</a>
+        </article>
+      </section>
+
+      <!-- Work sample 2 -->
+      <section class="combil">
+        <figure>
+          <a href="http://www.combil.loveefraimsson.se/" target="_blank"><img src="img/combil.png" alt="A picture of a work sample of the page 'ComBil' "></a>
+        </figure>
+
+        <article>
+          <h2>ComBil</h2>
+          <p>
+            ComBil är en bilverkstad med butik.  Verkstaden erbjuder allt från service och reparationer till däck- och glasbyten. 
+            Det är en hemsida med en menyrad som tar användaren till olika sidor inom hemsidan. Den är byggd med främst HTML och CSS men har ett kontaktformulär som är byggt med PHP.
+          </p>
+          <a href="http://www.combil.loveefraimsson.se/" target="_blank">Klicka här för att komma till ComBil</a>
+        </article>
+      </section>
+
+    </section>
+
+    <hr />
+
+    <!--------- SECTION, EDUCATION AND WORK ------------>
+    <h1 class="more_about_me">Mer om mig</h1>
+    
+    <section id="experience" class="experience">
+      <article class="education">
+        <h2>Utbildning</h2>
+        <ul>
+          <li><time datetime="2007-08">08/2007</time> - <time datetime="2010-06">06/2010:</time> Samhällsvetenskap, Aranäsgymnasiet</li>
+          <li><time datetime="2015-09">09/2015</time> - <time datetime="2015-12">12/2015:</time> Grundkurs Java, IT-högskolan</li>
+          <li><time datetime="2020-12">12/2020</time> - <time datetime="2022-09">09/2022:</time> Front End Developer, Medieinstitutet </li>
+        </ul>
+      </article>
+      
+      <article class="work">
+        <h2>Arbete</h2>
+        <ul>
+          <li><time datetime="2010-09">09/2010</time> - <time datetime="2010-12">12/2010:</time> Coor Service Management, lokalvård</li>
+          <li><time datetime="2011-01">01/2011</time> - <time datetime="2012-09">09/2012:</time> TopStäd, lokalvård</li>
+          <li><time datetime="2012-10">10/2012</time> - <time datetime="2015-01">01/2015:</time> Indikator AB, allt-i-allo</li>
+          <li><time datetime="2015-04">04/2015</time> - <time datetime="2015-06">06/2015:</time> Volvo</li>
+          <li><time datetime="2019-04">04/2019</time> - <time datetime="2020-12">12/2020:</time> Tetiko, arbetsträning</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <hr />
+
+  <!---------- CONTACT ------------->
+  <footer>
+    <address class="contact_left_side">
+      <p><i class="far fa-user"></i> Love Efraimsson</p>
+      <p><i class="far fa-building"></i> Göteborg, Sverige</p>
+    </address>
+    <address class="contact_right_side">
+      <a href="mailto:loveefraimsson@gmail.com"><i class="far fa-envelope"></i> loveefraimsson@gmail.com</a>
+      <a href="tel:0700760338"><i class="fas fa-phone-alt"></i> 0700-760338</a>
+    </address>
+  </footer>
+
+</body>
+</html>
