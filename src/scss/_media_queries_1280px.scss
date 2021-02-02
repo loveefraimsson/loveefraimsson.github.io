@@ -1,0 +1,98 @@
+/*Media queries for desktop*/
+
+@media only screen and (min-width: 1280px) {
+    
+    /*-------------------------------------------------------------------------
+    --------------------------- HEADER AND NAVIGATION -------------------------
+    -------------------------------------------------------------------------*/
+    nav {
+        label {
+            height: 3.5rem;
+            width: 3.5rem;
+            .hamburger {
+                height: 9px;
+            }
+        }
+    }
+
+    /*-------------------------------------------------------------------------
+    --------------------------- PROFILE SECTION -------------------------------
+    -------------------------------------------------------------------------*/
+    .profile_section {
+        flex-direction: row;
+        justify-content: space-evenly;
+        article {
+            width: 40%;
+            line-height: 1.6;
+            h1 {
+                text-align: left;
+            }
+        }
+        img {
+            width: 23rem;
+        }
+    }
+
+    /*-------------------------------------------------------------------------
+    --------------------------- WORK SAMPLES SECTION --------------------------
+    -------------------------------------------------------------------------*/
+    .work_samples {
+        .combil {
+            flex-direction: row-reverse;
+        }
+        .movie_festival, .combil {
+            justify-content: space-evenly;
+            background: none;
+            margin: 0;
+            img {
+                width: 29rem;
+                &:hover {
+                    transition: all 0.3s ease-in-out;
+                    filter: blur(5px);
+                    -webkit-filter: blur(5px);
+                }
+            }
+            h2 {
+                padding: 0rem 0rem 0.5rem 0rem;
+                font-size: 1.7rem;
+            }
+            p {
+                width: 30rem;
+            }
+        }
+        .movie_festival {
+            flex-direction: row;
+        }        
+    }
+   
+    /*-------------------------------------------------------------------------
+    --------------------------- EXPERIENCE SECTION ----------------------------
+    -------------------------------------------------------------------------*/
+    .more_about_me {
+        margin: 1.5rem 0rem;
+    }
+
+    .experience {
+        padding: 0rem 2.5rem 3rem 2.5rem;
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        flex-direction: row;
+        .contact_left_side, .contact_right_side {
+            padding: 1rem 5rem;
+            p, a {
+                padding: 0.4rem;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            i {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
